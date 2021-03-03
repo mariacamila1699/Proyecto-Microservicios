@@ -11,7 +11,7 @@ const HorarioProfesorSchema = new Schema({
         type: String,
         required: 'Hora_Inicio'
     },
-    hora_Final: {
+    hora_final: {
         type: String,
         required: 'Hora_Final'
     },
