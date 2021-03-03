@@ -7,12 +7,12 @@ const HorarioEstudianteSchema = new Schema({
       type: String,
       required: 'Dia'
     },
-    horainicio: {
-        type: Number,
+    hora_inicio: {
+        type: String,
         required: 'HoraInicio'
     },
-    horaFinal: {
-        type: Number,
+    hora_final: {
+        type: String,
         required: 'HoraFinal'
     },
 
